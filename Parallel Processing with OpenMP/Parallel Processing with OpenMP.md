@@ -18,7 +18,10 @@ Algorithms implemented are:
 
 | Algorithm   | 1 thread | 2 threads | length |
 | ----------- | ----------- |--- | --- |
-| QuickSort    | Title       | | |
-| Odd-Even Transposition Sort    | Title       | | |
-| MergeSort with Linked Lists   | Text        | | |
-| MergeSort with Arrays   | Text        | | |
+| QuickSort    | 917 ms       | 489 ms | 524288|
+| Odd-Even Transposition Sort    | 605 ms       | 304 ms| 16384|
+| MergeSort with Linked Lists   | 21.5 ms        | 13.6 ms | 65536|
+| MergeSort with Arrays   | 82.7 ms | 42.7 ms| 524288 |
+| Nested (Parallelism) MergeSort with Arrays   | 89.4 ms        | 46.8 ms| 524288|
+
+<u> Comment </u>: Values depend on the state of the computer.
